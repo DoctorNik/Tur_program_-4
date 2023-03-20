@@ -1,0 +1,83 @@
+header{
+    display: grid;
+    grid-template-columns: 300px 250px;
+    justify-content: center;
+    /*height: ;
+    /*border: 1px solid red */
+}
+
+.accent{
+    font-weight: 400;
+    color: palevioletred
+}
+
+.title{
+    /*border: 1px solid yellow*/
+}
+
+main{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    /*border: 1px solid orange; */
+}
+
+ol{
+    display: grid;
+    grid-template-columns: 270px 270px;
+    /*border: 1px solid blue; */
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 20px;
+    list-style-type: "🌸";
+}
+
+h2{
+    color: palevioletred;
+}
+
+blockquote{
+    background-image: url(img/pngwing.com.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+
+footer{
+    background-color: plum;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: grid;
+}
+
+.quote{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.quote div{
+    align-items: center;
+    /*border: 1px solid purple; */
+}
+
+cite{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.day{
+    box-shadow: 0 0 2px rgba(122, 122, 122, 0.5)
+}
+
+.day-3, .day-4{
+    background-color: rgba(250, 240, 230, 0.5);
+}

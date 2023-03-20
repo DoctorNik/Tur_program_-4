@@ -1,0 +1,44 @@
+header {
+    display: grid;
+    grid-template-columns: 400px 240px;
+    justify-content: center;
+   /* border: 1px solid green; */ 
+}
+
+.title, .quote {
+    /*border: 1px solid orange; */ 
+}
+
+.quote {
+    text-align: center;
+    align-items: center;
+}
+
+main {
+
+}
+
+footer {
+    text-align: center;
+    background-color: pink;
+    padding: 15px;
+    font-style: italic;
+    display: grid;
+}
+
+h2, .accent {
+    color: purple;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 400px 400px;
+/* border: 1px solid green; */ 
+    justify-content: center;
+    row-gap: 10px;
+}
+
+li {
+    /*border: 1px solid orange; */ 
+    margin: 30px;
+}
